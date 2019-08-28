@@ -7,7 +7,7 @@ import (
 
 func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
 	return events.APIGatewayProxyResponse{
-o		StatusCode: 200,
+		StatusCode: 200,
 		Body:       "Hola desde una lambda escrita en go!",
 	}, nil
 }
